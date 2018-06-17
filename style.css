@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+    /*background:url('Food-Grocery.jpg') center no-repeat;*/
+    background-size:cover;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Futura,"Trebuchet MS",Arial,sans-serif
+}
+*, *:before, *:after {box-sizing: inherit; }
+
+.wrapper {
+    padding: 20px;
+    max-width: 350px;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 0 0 10px rgba(0,0,0,0.4);
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    font-weight: 200;
+}
+
+.sin-form{
+    position: relative;
+    /*outline: 1px solid black;*/
+    overflow: hidden;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+/*.sin-form .sin-p {display: none}*/
+
+#canvas{
+     position:absolute;
+      left:0;
+      top:0;
+      z-index:-1;
+}
+
+input:focus{
+    outline: none;
+}
+
+input.grey-outline{
+    outline: 2px solid #C0C0C0;
+}
